@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    background-color: black;
+}
+
+#email_input{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(214,82,74);
+    border-radius: 50px;
+    /* border-bottom-left-radius: 50px; */
+    border: 0px;
+
+    margin: 20px 50px;
+    /* text-align: center; */
+    color: white;
+    padding: 0 30px;
+    cursor: text;
+}
+
+#email_input::placeholder{
+    color: white;
+}
+
+#email_input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+#email_input::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
+
+#submit_email{
+    color: rgb(214,82,74);
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: -110px;
+    transition: all 0.2s ease-in-out;
+    border: 0px;
+    box-shadow: 5px 5px 35px rgba(232, 230, 227, 0.6);
+    
+}
+
+input[type="submit"] {
+    font-family: FontAwesome;
+}
